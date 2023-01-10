@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fonts.css">
 	<meta name="description" content="Мой сайт">
 	<meta name="keywords" content="html, css, java">
 	<title>Document</title>
@@ -13,15 +14,25 @@
 </head>
 
 <body>
-	<p><img src="image/1556708032_1.jpg" width="300" alt=""></p>
+	<div class="container">
+	<div class="info">
+	<img class="ava" src="image/1556708032_1.jpg"  alt="">
+		<div class="info-text">
 	<h1>Viktor Matskiv</h1>
-	<p>Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit. Laboriosam, officia.</p>
-	<p>Lorem <em>ipsum dolor</em> sit amet.</p>
-	<h4>Список социальных сетей:</h4>
-	<a href="Instagram.com" target="_blank">Instagram</a> |
-	<a href="Telegram.com" target="_blank">Telegram</a> |
-	<a href="YouTube.com" target="_blank">YouTube</a>
+	
+	<p><em>ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, officia.</p>
+	<p>Lorem ipsum dolor sit amet.</em></p>
 
+	<h4>Список социальных сетей:</h4>
+
+	<a href="Instagram.com" target="_blank">Instagram</a> |
+
+	<a href="Telegram.com" target="_blank">Telegram</a> |
+
+	<a href="YouTube.com" target="_blank">YouTube</a> 
+</div>
+	</div>
+	<div class="card1">
 	<h1>Мои хобби</h1>
 	<ul>
 		<li>Путишествие</li>
@@ -31,93 +42,101 @@
 	</ul>
 
 	<ol>
-		<li>Igrat</li>
-		<li>hodit</li>
-		<li>spat</li>
-		<li>lehat</li>
-		<li>qweq</li>
-		<li>dfsfsd</li>
-		<li>fdsfhgfh</li>
-		<li>fghfdhkjd</li>
+		<li>гулять</li>
+		<li>плавать</li>
+		<li>футбол</li>
+		<li>теннис</li>
 	</ol>
+</div>
 
-	<ol>
-		<li>kapec</li>
-		<li>kapec</li>
-		<li>kapec</li>
-		<li>kapec</li>
-		<li>kapec</li>
-		<li>kapec</li>
-		<li>kapec</li>
-		<li>kapec</li>
-	</ol>
-
+<div class="card2">
 	<h1>Опыт работы</h1>
 	<table>
 		<thead>
 			<th>Название</th>
 			<th>Должность</th>
 			<th>Год</th>
+			<th>askded</th>
 		</thead>
 		<tr>
 			<td>ahsdasd</td>
 			<td>asjdajsda</td>
 			<td>2019</td>
-		<tr>
-			<td>sdadssa</td>
-			<td>fgfdggd</td>
-			<td>2018</td>
+			<td>askdsd</td>
 		</tr>
 		<tr>
 			<td>sdadssa</td>
 			<td>fgfdggd</td>
 			<td>2018</td>
+			<td>askd</td>
 		</tr>
+		<tr>
+			<td>sdadssa</td>
+			<td>fgfdggd</td>
+			<td>2018</td>
+			<td>asdsd</td>
+		</tr>
+		<tr>
+			<td>asasd</td>
+			<td>asdsd</td>
+			<td>1945</td>
+			<td>1968</td>
 		</tr>
 	</table>
-	<h1>Связатся со мной</h1>
+</div>
+<div class="nav">
+ 	<ul>
+	<li><a href="">item 1</a></li>
+	<li><a href="">item 2</a></li>
+	<li><a href="">item 3</a></li>
+	<li><a href="">item 4</a></li>
+ 	</ul>
+</div>
+
+<div class="card3">
+		<h1>Мои курсы</h1>
+		<ul>
+			<li><a href="Получние профессии Frontend Разработчика">Получние профессии Frontend Разработчика</a></li>			
+			<li><a href="Vse kursu">Все курсы</a></li>
+		</ul>
+</div>
+	
+<div class="kontaktu">
 	<form>
-		<div>
+		<h1>Связатся со мной</h1>
+		<div class="row">
+		<div class="form-group">
 			<label for="text">Ваше имя:</label>
-			<input type="text" name="Ваше имя" id="text" placeholder="Введите имя">
+			<input type="text"  id="name" placeholder="Введите имя">
 		</div>
-		<div>
+
+		
+		<div  class="form-group">
 			<label for="email">Ваш email:</label>
 			<input type="email" id="email" placeholder="Введите email">
 		</div>
-
-		<div>
-			<label for="number">Ваш телефон:</label>
-			<input type="number" id="number" min="0" placeholder="Введите email">
+	</div>
+	
+		<div class="form-group">
+			<label for="phone">Ваш номер</label>
+			<input type="number" id="number" placeholder="Введите ваш номер">
 		</div>
 
-		<div>
-			<label for="password">Ваш телефон:</label>
-			<input type="password" id="password" placeholder="Введите email">
+		<div class="form-group">
+			<label for="">Ваш номер</label>
+			<input type="number" id="number" placeholder="Введите ваш номер">
 		</div>
 
-		<div>
-			<label>Ваше сообщение:</label>
-			<br>
-			<textarea name="message" id="message" cols="20" rows="10"></textarea>
+			<div class="form-group">
+			<label for="message">Ваше сообщение:</label>
+			<textarea name="message" id="message" cols="20" rows="10" placeholder="Введите ваше сообщение..."></textarea>
 		</div>
-		<button type="submit">Отправить!</button>
-		<div>
-			<label for="sex"></label>
-			<select name="sex" id="sex">Мужчина</select>
-			<select name="sex" id="sex">Мужчина</select>
-		</div>
-		<div>
-			<label for="range">дата</label>
-			<input type="range" id="range" >
-			<br>
-			<select name="sex" id="sex">
-				<option value="">Мужчина</option>
-				<option value="">Женщина</option>
-			</select>
-		</div>
+	
+		<input class="btn" type="submit" value="Отправить!"> 
+	
 	</form>
-
+</div>
+</div>
 </body>
 
 </html>
