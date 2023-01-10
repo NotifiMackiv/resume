@@ -1,4 +1,4 @@
 # Мой сайт
 ## Посмотреть мой мини сайт можно здесь
 
-[Сам сайт](https://github.com/NotifiMackiv/resume.git)
+[Сам сайт](https://notifimackiv.github.io/resume/)
